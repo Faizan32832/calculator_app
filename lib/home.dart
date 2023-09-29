@@ -40,28 +40,24 @@ class _MyHomeState extends State<MyHome> {
                 ],
               ),
               const Spacer(),
-              Column(
-                mainAxisAlignment: MainAxisAlignment.end,
-                crossAxisAlignment: CrossAxisAlignment.end,
-                children: [
-                  Text(
-                    userInput.toString(),
-                    style: const TextStyle(
-                        color: Color.fromARGB(255, 201, 194, 194),
-                        fontSize: 50,
-                        fontWeight: FontWeight.w400),
-                  ),
-                  Text(
-                    answer.toString(),
-                    style: const TextStyle(
-                        color: Colors.white,
-                        fontSize: 55,
-                        fontWeight: FontWeight.w400),
-                  ),
-                  const SizedBox(
-                    height: 18,
-                  )
-                ],
+              Text(
+                userInput.toString(),
+                style: const TextStyle(
+                  color: Color.fromARGB(255, 201, 194, 194),
+                  fontSize: 50,
+                  fontWeight: FontWeight.w400,
+                ),
+              ),
+              Text(
+                answer.toString(),
+                style: const TextStyle(
+                  color: Colors.white,
+                  fontSize: 55,
+                  fontWeight: FontWeight.w400,
+                ),
+              ),
+              const SizedBox(
+                height: 18,
               ),
               Column(
                 crossAxisAlignment: CrossAxisAlignment.center,
